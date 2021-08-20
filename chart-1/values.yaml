@@ -1,0 +1,21 @@
+# Default values for robot.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+deployment:
+   name: nginx
+   replicaCount: 4
+   image:
+     app: nginx
+     version: latest
+
+service:
+   name: nginx-service
+   type: NodePort
+   targetPort: 80
+   nodePort: 32565
+   
+
+
+
+
