@@ -1,0 +1,5 @@
+We are deploying nginx deployment chart.
+
+We can provide useful information and instructions from this NOTES.txt file. 
+
+
